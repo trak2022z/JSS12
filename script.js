@@ -11,13 +11,16 @@ function init() {
   document.body.appendChild(newHeading);
 }
 
+  // create a new <li> node
   let li = document.createElement("li");
   li.textContent = "Contact!";
   
-  // select the ul menu element
+  // select the ul menu element and add <li>
   const menu = document.querySelector('#menu');
   menu.appendChild(li);
 
+
+  
   //Remove element by id
   let el = document.getElementById("fyi");
   el.innerHTML = "";
